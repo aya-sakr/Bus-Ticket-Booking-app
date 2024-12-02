@@ -1,0 +1,16 @@
+.ng-valid[required],
+.ng-valid.required {
+  border-left: 5px solid #42a948; /* green */
+}
+
+.ng-invalid:not(form) {
+  border-left: 5px solid #a94442; /* red */
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+.navbar-nav li a:hover{
+  color: #007bff;
+  
+}
